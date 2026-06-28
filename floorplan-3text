@@ -1,0 +1,63 @@
+{
+  "corridors": [
+    {
+      "id": "C_VERTICAL_MAIN",
+      "x1": 500,
+      "y1": 80,
+      "x2": 500,
+      "y2": 760
+    },
+    {
+      "id": "C_HORIZONTAL_MAIN",
+      "x1": 120,
+      "y1": 240,
+      "x2": 880,
+      "y2": 240
+    }
+  ],
+
+  "rooms": [
+    { "id": "ACADEMIC_HALL", "x": 260, "y": 160, "people": 12 },
+    { "id": "READING_AREA_1", "x": 260, "y": 320, "people": 15 },
+    { "id": "READING_AREA_2", "x": 260, "y": 440, "people": 15 },
+
+    { "id": "LENDING_SECTION", "x": 500, "y": 360, "people": 8 },
+    { "id": "RETURNING_SECTION", "x": 500, "y": 460, "people": 6 },
+
+    { "id": "READING_AREA_3", "x": 740, "y": 320, "people": 15 },
+    { "id": "READING_AREA_4", "x": 740, "y": 440, "people": 15 },
+
+    { "id": "NEWSPAPER_ROOM", "x": 300, "y": 620, "people": 10 },
+    { "id": "E_READING_ROOM", "x": 700, "y": 620, "people": 10 },
+
+    { "id": "OFFICE_1", "x": 660, "y": 160, "people": 3 },
+    { "id": "OFFICE_2", "x": 760, "y": 160, "people": 3 }
+  ],
+
+  "exits": [
+    {
+      "id": "EXIT_TOP",
+      "x": 500,
+      "y": 80,
+      "type": "exit"
+    },
+    {
+      "id": "EXIT_LEFT",
+      "x": 120,
+      "y": 240,
+      "type": "exit"
+    },
+    {
+      "id": "EXIT_RIGHT",
+      "x": 880,
+      "y": 240,
+      "type": "exit"
+    },
+    {
+      "id": "EXIT_BOTTOM",
+      "x": 500,
+      "y": 760,
+      "type": "exit"
+    }
+  ]
+}
