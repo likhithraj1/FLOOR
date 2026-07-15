@@ -1,0 +1,21 @@
+{
+  "name": "floor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "old(1).js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likhithraj1/FLOOR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/likhithraj1/FLOOR/issues"
+  },
+  "homepage": "https://github.com/likhithraj1/FLOOR#readme"
+}

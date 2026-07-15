@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Evacuation Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  Smart Evacuation Simulation
+</header>
+
+<div class="page">
+
+  <!-- IMAGE UPLOAD FIRST (OLD, WORKING) -->
+  <section class="card">
+    <h2>Upload Floor Plan Image</h2>
+
+    <input type="file" id="imageInput" accept="image/*">
+
+    <div class="image-box">
+      <img id="floorImg" alt="Floor Plan">
+    </div>
+  </section>
+
+  <!-- JSON INPUT SECOND -->
+  <section class="card">
+    <h2>Paste Floor Plan JSON</h2>
+
+    <textarea
+      id="jsonInput"
+      placeholder="Paste the JSON generated using ChatGPT here..."
+    ></textarea>
+
+    <div class="btn-row">
+      <button onclick="loadPlan()">Load JSON</button>
+      
+    </div>
+  </section>
+
+  <!-- TEXTUAL EVACUATION GUIDE (ADDED CLEANLY) -->
+  <section class="card">
+    <h2>Evacuation Instructions (Text Output)</h2>
+
+    <button onclick="generateEvacuationText()">
+      Generate Evacuation Instructions
+    </button>
+
+    <div id="textOutput"></div>
+  </section>
+
+  <!-- SIMULATION LAST -->
+  <section class="card">
+    <h2>Evacuation Simulation</h2>
+
+    <button class="start-btn" onclick="startEvacuation()">
+      ▶ Start Evacuation
+    </button>
+
+    <canvas id="simCanvas" width="900" height="450"></canvas>
+  </section>
+
+  <button onclick="goToSafety()">Safety Instructions →</button>
+
+  <script>
+function goToSafety(){
+  window.location.href = "safety.html";
+}
+</script>
+
+
+</div>
+
+<!-- IMPORTANT: keep script at the END exactly like this -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+ <!-- blank line -->
