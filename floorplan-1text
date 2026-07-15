@@ -1,0 +1,47 @@
+{
+  "corridors": [
+    {
+      "id": "C_MAIN",
+      "x1": 120,
+      "y1": 240,
+      "x2": 880,
+      "y2": 240
+    }
+  ],
+
+  "rooms": [
+    {
+      "id": "CLASS_101",
+      "x": 220,
+      "y": 120,
+      "people": 6
+    },
+    {
+      "id": "SEMINAR_HALL",
+      "x": 480,
+      "y": 120,
+      "people": 10
+    },
+    {
+      "id": "LAB_201",
+      "x": 220,
+      "y": 360,
+      "people": 5
+    }
+  ],
+
+  "exits": [
+    {
+      "id": "MAIN_EXIT",
+      "x": 880,
+      "y": 120,
+      "type": "exit"
+    },
+    {
+      "id": "STAIRCASE",
+      "x": 720,
+      "y": 360,
+      "type": "stairs"
+    }
+  ]
+}

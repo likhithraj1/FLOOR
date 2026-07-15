@@ -1,0 +1,72 @@
+{
+  "corridors": [
+    {
+      "id": "C_MAIN",
+      "x1": 120,
+      "y1": 240,
+      "x2": 980,
+      "y2": 240
+    },
+    {
+      "id": "C_VERT_LEFT",
+      "x1": 200,
+      "y1": 100,
+      "x2": 200,
+      "y2": 380
+    },
+    {
+      "id": "C_VERT_CENTER",
+      "x1": 520,
+      "y1": 80,
+      "x2": 520,
+      "y2": 420
+    },
+    {
+      "id": "C_VERT_RIGHT",
+      "x1": 860,
+      "y1": 100,
+      "x2": 860,
+      "y2": 380
+    }
+  ],
+
+  "rooms": [
+    { "id": "ROOM_101", "x": 260, "y": 120, "people": 4 },
+    { "id": "ROOM_102", "x": 360, "y": 120, "people": 4 },
+    { "id": "ROOM_103", "x": 460, "y": 120, "people": 4 },
+    { "id": "ROOM_104", "x": 620, "y": 120, "people": 4 },
+    { "id": "ROOM_105", "x": 720, "y": 120, "people": 4 },
+
+    { "id": "ROOM_201", "x": 300, "y": 360, "people": 5 },
+    { "id": "ROOM_202", "x": 420, "y": 360, "people": 5 },
+    { "id": "ROOM_203", "x": 620, "y": 360, "people": 5 },
+    { "id": "ROOM_204", "x": 740, "y": 360, "people": 5 }
+  ],
+
+  "exits": [
+    {
+      "id": "EXIT_LEFT",
+      "x": 120,
+      "y": 240,
+      "type": "exit"
+    },
+    {
+      "id": "EXIT_RIGHT",
+      "x": 980,
+      "y": 240,
+      "type": "exit"
+    },
+    {
+      "id": "EXIT_TOP",
+      "x": 520,
+      "y": 80,
+      "type": "exit"
+    },
+    {
+      "id": "STAIR_BOTTOM",
+      "x": 520,
+      "y": 420,
+      "type": "stairs"
+    }
+  ]
+}
