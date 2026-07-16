@@ -96,7 +96,7 @@ function drawConnections() {
 function drawNodes() {
   // Rooms
   plan.rooms.forEach((r) => {
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "blue";
     ctx.beginPath();
     ctx.arc(r.x, r.y, ROOM_RADIUS, 0, Math.PI * 2);
     ctx.fill();
